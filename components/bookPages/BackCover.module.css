@@ -1,0 +1,47 @@
+.movieBox {
+	overflow: hidden;
+	position: relative;
+	width: 90%;
+	height: 50%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+	border: solid 6px #222;
+}
+.movieBox :global .line {
+	position: absolute;
+	height: 100%;
+	width: 2px;
+	opacity: 0.2;
+	background-color: #000;
+}
+.movieBox:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0px 0px 150px 30px black;
+	/* filter: sepia(1); */
+	mix-blend-mode: multiply;
+}
+.pic:nth-of-type(2) {
+	opacity: 0.7;
+	box-shadow: inset 0px 0px 250px 30px black;
+}
+.pic:nth-of-type(1) {
+	opacity: 0.2;
+}
+.pic {
+	position: absolute;
+	width: 100%;
+	filter: sepia(1);
+}
+
+.text {
+    composes: text from global;
+    text-align: center;
+}
+.text a {
+	text-decoration: none;
+}

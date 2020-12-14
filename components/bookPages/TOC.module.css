@@ -1,0 +1,22 @@
+.quill {
+    float: left;
+    margin-left: -35px;
+    margin-right: 2vw;
+    height: 90%;
+    width: 30%;
+	/* animation: show 1s ease-out; */
+}
+/* @keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 1;}; 
+} */
+
+.toc__line {
+    cursor: pointer;
+}
+
+.text {
+    composes: text from global;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 5vw;
+}

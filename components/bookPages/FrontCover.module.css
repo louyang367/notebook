@@ -1,0 +1,53 @@
+/* :global .stf__block > .page:first-child  {
+	background: linear-gradient(90deg, rgba(154,145,122,1) 6%, rgba(246,240,207,1) 48%);
+	background-image: url(./notecover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+} */
+
+.terminal {
+	position: absolute;
+	height: 25%;
+	width: 67%;
+	padding: 0;
+    padding-left: 2%;
+	top: 17%;
+	left: 22%;
+	overflow: hidden;
+	border: 3px ridge silver;
+	border-radius: 5%;
+	background: #262626;
+	color: lightgreen;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5vw;
+	/* display: flex;
+    align-items: center; */
+	/* justify-content: center; */
+}
+
+@media only screen and (max-width: 630px) {
+	.terminal {
+		font-size: 3vw;
+	}
+}
+
+.terminal p::before {
+	content: '> ';
+}
+
+.name {
+    color: black;
+    font-weight: 600;
+    background-color: rgb(235, 235, 155);
+}
+
+.rectangle {
+    animation: blink 1.2s infinite ease-in-out;
+}
+@keyframes blink{
+    0% {opacity: 0;}
+    40% {opacity: 1;}
+    60% {opacity: 1;}
+    100% {opacity: 0}; 
+}
+

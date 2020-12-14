@@ -1,0 +1,3 @@
+.text {
+    composes: text from global;
+}

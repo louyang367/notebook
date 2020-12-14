@@ -1,0 +1,10 @@
+.textBox {
+	position: absolute;
+	bottom: 0;
+	height: 65%;
+	padding-right: 5%;
+}
+
+.text {
+    composes: text from global;
+}

@@ -1,0 +1,39 @@
+.text {
+    composes: text from global;
+    margin-top: 35%;
+}
+/* .qa {
+    position: absolute;
+    bottom: 3vw;
+    right: 9%;
+}
+.qa::after {
+    content: ' ↺';
+    font-size: 1.5vw;
+} */
+
+.mbranch {
+	width: 100%;
+	margin-top: -22%;
+	margin-left: 20%;
+    width: 60%;
+    transform: rotate(-30deg);
+}
+
+.leaf {
+	width: 5%;
+	height: 5%;
+	position: absolute;
+	background: url(./red-leaf.png);
+	background-size: 100% 100%;
+}
+
+.mapleBox {
+	width: 120%;
+	height: 100%;
+	/* margin-top: -5%; */
+	position: absolute;
+	top: 10%;
+	left: -10%;
+	overflow: hidden;
+}

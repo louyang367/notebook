@@ -1,0 +1,17 @@
+.cat {
+    position: absolute;
+    width: 30%;
+    bottom: 3%; 
+    z-index: 1;
+}
+
+.family {
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    bottom: 15%;
+}
+
+.text {
+    composes: text from global;
+}
