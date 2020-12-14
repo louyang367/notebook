@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import styles from './page3.module.css';
+import styles from './Page3.module.css';
 import ClientOnlyPortal from "../ClientOnlyPortal";
 
 const Page3: FC = () => {
