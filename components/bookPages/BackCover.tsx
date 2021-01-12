@@ -15,20 +15,21 @@ const BackCover: FC<{ currPage: number }> = ({ currPage }) => {
 					<img className={styles.pic} src="/myself2.jpg" alt="myself" />
 				</div>
 				<div className={styles.text}>
+					<p>Like movies? Checkout my new <a href="https://movie-graphql-g7xff2hsd.vercel.app/" target="_blank" rel="noopener noreferrer">website!</a></p>
+					<hr/>
 					<p>Lu lives and works in Redmond, Washington. </p>
 					<p>
 						Code base for this website can be found at: <br />
-						<a href="https://github.com/louyang367/notebook">
+						<a href="https://github.com/louyang367/notebook" target="_blank" rel="noopener noreferrer">
 							github.com/louyang367/notebook
 						</a>
 					</p>
 					<p>
-						Comments? Suggestions? Invitations (she's constantly looking for
-						ideas for her next personal project 😊)? Find her at:
+						Comments? Suggestions? Find her at:
 					</p>
-					<a href="mailto:luouyang01@gmail.com">luouyang01@gmail.com</a>
+					<a href="mailto:luouyang01@gmail.com" target="_blank" rel="noopener noreferrer">luouyang01@gmail.com</a>
 					<br />
-					<a href="https://linkedIn: linkedin.com/in/luouyang367">
+					<a href="https://linkedin.com/in/luouyang367" target="_blank" rel="noopener noreferrer">
 						linkedIn: linkedin.com/in/luouyang367
 					</a>
 				</div>

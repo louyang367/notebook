@@ -43,5 +43,5 @@
     text-align: center;
 }
 .text a {
-	text-decoration: none;
+	text-decoration: underline;
 }
