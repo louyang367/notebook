@@ -15,7 +15,7 @@ const BackCover: FC<{ currPage: number }> = ({ currPage }) => {
 					<img className={styles.pic} src="/myself2.jpg" alt="myself" />
 				</div>
 				<div className={styles.text}>
-					<p>Like movies? Checkout my new <a href="https://movie-graphql-g7xff2hsd.vercel.app/" target="_blank" rel="noopener noreferrer">website!</a></p>
+					<p>Want to catch up with newly released movies? Search for old favorites and find out where to stream? Checkout my new <a href="https://movie-graphql-g7xff2hsd.vercel.app/" target="_blank" rel="noopener noreferrer">website</a>!</p>
 					<hr/>
 					<p>Lu lives and works in Redmond, Washington. </p>
 					<p>

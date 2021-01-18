@@ -7,22 +7,30 @@ const Page2: FC<{}> = () => {
 		<ClientOnlyPortal selector="#page2">
 			<div>
 				<div className={`${styles.textBox} ${styles.text}`}>
-					<h1>About Me</h1>
+					<h1>About This Website</h1>
 					<p>
-						I studied Computer Science and finance in college. Earlier in my
-						career I zigzagged between these two fields. I have worked for
-						Bloomberg, Infosys, Microsoft, traded financial commodities, and even
-						started a business venture for a brief time. Life is full of
-						vairables, but what remains constant for me is curiosity, desire to
-						learn, and courage to take on new challenges.
+						The front end of this site uses React and is built upon the 'St.
+						Page Flilp' library by Oleg Nodlik {' '}
+						<a href="https://github.com/Nodlik">
+							(https://github.com/Nodlik)
+						</a>
+						. What amazingly realistic page flipping effect he has created! It
+						feels like I'd been looking for an excuse to use it every since I
+						saw the demo.
 					</p>
 					<p>
-					Currently I am working for Microsoft on a Commercial Sales and Marketing project
-						. My role centers on front end, including React
-						component design, UI feature implementation, stlying, accessibility, and
-						writing tests. </p>
-					<p> I am passionate about React, javascript, and anything
-						related to web developement. For me these are the things that made programming fun again!
+						I'm only a newcomer to the simple yet powerful animation framework
+						GSAP. Many of the animations are built upon googled examples.
+						Special credit goes to Diaco Lotfollahi.
+					</p>
+					<p>
+						This site is by no means meant to demonstrate best practices. It
+						started out more like an front-end experiment. React.js was my entry
+						into the world of web development and I had always been curious
+						about the plain Javascript DOM manipulation and its interaction with
+						React. I also wanted to try out new styling tools otherthan plain
+						css. Creating this site gave me a chance to see how things work out
+						in those aspects. ... And, one day I'll fix the FOUC problem.
 					</p>
 				</div>
 			</div>

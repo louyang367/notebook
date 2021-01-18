@@ -25,23 +25,24 @@ const Page1: FC = () => {
 		<ClientOnlyPortal selector="#page1">
 			<div className={styles.container}>
 				<div className={styles.text}>
-					<h1>About This Website</h1>
+					<h1>About Me</h1>
 					<p>
-						The front end of this site uses React and is built upon the
-						'St. Page Flilp' library by Oleg Nodlik
-						<a href="https://github.com/Nodlik"> (https://github.com/Nodlik) </a>.
-						What amazingly realistic page flipping effect he has created! I feel
-						like I'd been looking for an excuse to use it every since I saw the
-						demo.
+						I started my career working as a financial software developer. After
+						five years at the job and earning a Master's degree in computer
+						science, life's adventures called and I switched tracks. Three years
+						ago I decided it was time to settle down. I started by taking
+						courses and training in web development, and now I'm happily working
+						as a contractor for Microsoft to transition their Commercial Sales
+						and Marketing website.
 					</p>
 					<p>
-						I'm only a newcomer to the powerful animation framework GSAP, so most of the animations are built upon googled examples. Special credit goes to
-						Diaco Lotfollahi.
-					</p>
-					<p>
-						The architecture of this site is shaping up to be a JAMStack. And believe it or
-						not there's an official website for this term
-						<a href="https://jamstack.org/"> jamstack.org </a>
+						Web technology is changing so fast that learning new skills is part
+						of the norm. Having basically taught myself into this field, I am
+						well prepared and adapted to this norm. I also love to solve
+						problems, dig into the bottom of bugs, and engage in technical
+						discussions with teammates that often lead to new insights. Being a
+						web developer at this time is both challenging and exciting. I enjoy
+						the fact that I have learned something new literally every day!
 					</p>
 				</div>
 

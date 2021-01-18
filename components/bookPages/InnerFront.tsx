@@ -18,10 +18,11 @@ const InnerFront: FC = () => {
 					technologies that I don't get to use at work, to dabble in
 					tools and libraries that I'd always wanted to give a try, and to gain a
 					better perspective of how individual pieces come together in the
-					process of web development. Looking back, it sure was a joy ride!
+					process of web development.
 				</p>
 				<p>
-					Now that I have this site and this notebook, all I need to do is keep adding new pages to it. Imagine all the new ideas I can experiment here!
+					Looking back, making this 'notebook' sure was a joy ride. Looking ahead, may this notebook grow with me as 
+					I grow as a web developer, and keep adding new pages to it. 
 				</p>
 				<p>So, here we are. Welcome, and happy flipping!</p>
 			</div>

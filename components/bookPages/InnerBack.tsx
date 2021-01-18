@@ -25,26 +25,26 @@ const InnerBack: FC<{ currPage: number }> = ({ currPage }) => {
 					considered AWS lambda + S3, Gatsby, and Next.js. AWS lambda needs too
 					much custom code on the server side which feels like re-inventing the
 					wheel. Gatsby pioneered the idea of static generation, but Next.js now
-					automatically does that on top of SSR. I do plan to expand my site
+					automatically does that on top of SSR. I do plan to expand this site
 					with more dynamic and server side functionalities, and Next.js has the
 					structure laid out.
 				</p>
 				<p>
-					Porting this create-react-app bootstrapped page to Next.js was quite a challenge. Nothing is boiler plate here. Here are a list of pain points:
+					Porting this create-react-app bootstrapped page to Next.js was not very straightforward. Below I'm listing the things I had to figure out, but also glad to report that Next.js is actually able to handle almost any customization scenarios.
 					<ul>
-						<li>Where to place the third-part library script</li>
+						<li>Where to place the third-part library script;</li>
 						<li>
 							How and when to load it and make it work within the file structure
-							with React
+							with React;
 						</li>
-						<li>How to use React Portal on Next</li>
+						<li>How to use React Portal on Next;</li>
 						<li>
 							How to load svg that's not just a still image but needs to be
-							animated
+							animated;
 						</li>
 						<li>
 							Even though CSS modules is now supported by Next.js, it
-							still works a bit differently
+							still works a bit differently;
 						</li>
 					</ul>
 				</p>
