@@ -21,8 +21,7 @@ const InnerFront: FC = () => {
 					process of web development.
 				</p>
 				<p>
-					Looking back, making this 'notebook' sure was a joy ride. Looking ahead, may this notebook grow with me as 
-					I grow as a web developer, and keep adding new pages to it. 
+					Looking back, making this 'notebook' sure was a joy ride. Looking ahead, I hope to keep adding new pages to it. May this notebook grow with me as I grow as a web developer. 
 				</p>
 				<p>So, here we are. Welcome, and happy flipping!</p>
 			</div>
